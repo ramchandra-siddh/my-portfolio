@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+body {
+  @apply h-screen bg-[#161513] text-white;
+}
