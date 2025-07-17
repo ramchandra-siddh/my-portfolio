@@ -32,7 +32,7 @@ const Contact = () => {
     >
       {/* Title */}
       <div className="relative">
-        <h1 className="text-[50px] md:text-[80px] text-center font-semibold px-0 md:px-6">
+        <h1 className="text-[50px] md:text-[80px]  font-semibold px-0 md:px-6">
           Get in touch
         </h1>
         <img
