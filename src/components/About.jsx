@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="flex flex-col gap-8 md:gap-[80px] mx-[70px] my-[50px] items-start md:items-center md:justify-center md:mx-[170px] md:my-[80px]"
+      className="flex flex-col gap-8 md:gap-[80px] mx-[40px] my-[50px] items-start md:items-center md:justify-center md:mx-[170px] md:my-[40px]"
     >
       {/* Title */}
       <div className="relative">

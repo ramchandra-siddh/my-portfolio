@@ -13,11 +13,11 @@ const Hero = () => {
         alt=""
         className="mt-[120px] w-[260px] md:mt-[50px] md:w-[400px]"
       />
-      <h1 className="text-center w-[90%] text-[50px] font-medium md:font-semibold md:w-[70%] md:text-[90px] mt-12">
+      <h1 className="text-center text-[40px] font-medium md:font-semibold md:w-[70%] md:text-[90px] mt-12">
         <span className="block bg-gradient-to-r from-[#bb07ec] to-[#e77810] bg-clip-text text-transparent">
           {`I'm Ramchandra, `}
         </span>
-        <span className=" block bg-gradient-to-r from-[#bb07ec] to-[#e77810] bg-clip-text text-transparent text-[30px] md:font-semibold md:text-[60px] ">
+        <span className=" block bg-gradient-to-r from-[#bb07ec] to-[#e77810] bg-clip-text text-transparent text-[25px] md:font-semibold md:text-[60px] ">
           <Typewriter
             words={[
               "Frontend Developer",
@@ -33,7 +33,7 @@ const Hero = () => {
           />
         </span>
       </h1>
-      <p className="w-[60%] text-[18px] leading-[32px] my-[10px] md:w-1/2 text-center md:text-center md:text-[24px] md:leading-[40px]">
+      <p className="w-[70%] text-[18px] leading-[32px] my-[10px] md:w-1/2 text-left md:text-center md:text-[24px] md:leading-[40px]">
         MERN Stack Developer (Fresher) with hands-on experience in building 5+
         real-world projects. Skilled in MongoDB, Express, React, and Node.js,
         and eager to contribute to impactful development teams.

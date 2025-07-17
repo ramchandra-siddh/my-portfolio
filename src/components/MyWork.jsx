@@ -9,7 +9,7 @@ const MyWork = () => {
   return (
     <div
       id="work"
-      className="flex flex-col items-center justify-center md:gap-20 md:my-20 md:mx-[170px] mx-10 my-5 gap-16"
+      className="flex flex-col items-center justify-center md:gap-20 md:my-10 md:mx-[170px] mx-10 my-5 gap-16"
     >
       {/* Title */}
       <div className="relative">
@@ -24,14 +24,14 @@ const MyWork = () => {
       </div>
 
       {/* Projects Container */}
-      <div className="grid grid-cols-1 gap-[30px]  sm:grid-cols-2 md:grid-cols-3 md:gap-10 ">
+      <div className="grid grid-cols-1 gap-[30px] sm:grid-cols-2 md:grid-cols-3 md:gap-10 ">
         {(showAll ? mywork_data : mywork_data.slice(0, 3)).map(
           (work, index) => (
             <div key={index} className="flex flex-col items-center">
               <img
                 src={work.w_img}
                 alt={`Project ${index + 1}`}
-                className="w-full h-[200px] md:h-[250px]  md:max-w-[419px] rounded-lg transition-transform duration-300 hover:scale-110 hover:outline-2 hover:outline-[#ff00ff] box-border"
+                className="w-[80%] h-[200px] md:h-[250px]  md:max-w-[419px] rounded-lg transition-transform duration-300 hover:scale-110 hover:outline-2 hover:outline-[#ff00ff] box-border"
               />
               <div className="flex flex-col items-center gap-4 mt-4 w-full md:flex-row md:justify-around md:gap-[50px] md:mt-8 ">
                 <a
@@ -63,7 +63,7 @@ const MyWork = () => {
       {/* Show More / Less */}
       <div
         onClick={() => setShowAll(!showAll)}
-        className="flex gap-[15px] items-center justify-center rounded-full font-medium  border-2 border-white md:mb-20 md:text-[22px] transition-all duration-500 hover:gap-[30px] px-10 py-5 text-lg mx-auto my-12"
+        className="flex gap-[15px] items-center justify-center rounded-full font-medium  border-2 border-white md:mb-2 md:text-[22px] transition-all duration-500 hover:gap-[30px] px-10 py-5 text-lg mx-auto my-2"
       >
         <p>{showAll ? "Show Less" : "Show More"}</p>
         <img

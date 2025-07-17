@@ -4,7 +4,7 @@ import user_icon from "../assets/user_icon.svg";
 
 const Footer = () => {
   return (
-    <div className="mx-[70px] my-[50px] flex flex-col gap-8 md:mx-[170px] md:my-[50px]">
+    <div className="mx-[70px] my-[50px] flex flex-col gap-8 md:mx-[170px] md:my-[40px]">
       <div className="flex flex-col md:flex-row gap-12 md:justify-between md:gap-8">
         <div className="max-w-[400px] text-lg text-white">
           <p>
@@ -13,7 +13,7 @@ const Footer = () => {
           </p>
         </div>
         <div className="flex flex-col md:flex-row items-center gap-9">
-          <div className="flex gap-7  pr-20 py-5 px-8 rounded-full bg-[#32323b] border-2 border-transparent hover:border-white transition-transform duration-300">
+          <div className=" w-[95%] flex gap-7  pr-20 py-5 px-8 rounded-full bg-[#32323b] border-2 border-transparent hover:border-white transition-transform duration-300">
             <img src={user_icon} alt="user" className="w-8 h-8" />
             <input
               type="email"

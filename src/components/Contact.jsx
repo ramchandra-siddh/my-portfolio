@@ -28,7 +28,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="flex flex-col items-center justify-center gap-8 mx-10 my-5  md:gap-20 md:my-20 md:mx-[170px]"
+      className="flex flex-col items-center justify-center gap-8 mx-10 my-5  md:gap-20 md:my-10 md:mx-[170px]"
     >
       {/* Title */}
       <div className="relative">
@@ -55,7 +55,7 @@ const Contact = () => {
             can contact anytime.
           </p>
 
-          <div className="flex flex-col gap-6 text-[#d8d8d8] text-[22px]">
+          <div className="flex flex-col gap-6  text-[#d8d8d8] text-[22px]">
             <div className="flex items-center">
               <a
                 href="mailto:ramchandrasiddh18@gmail.com"
