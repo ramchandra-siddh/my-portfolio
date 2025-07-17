@@ -17,7 +17,8 @@ const mywork_data = [
     w_no: 2,
     w_name: "Web design",
     w_img: project2_img,
-    code: "https://github.com/ramchandra-siddh/healthgrid",
+    code: "https://github.com/ramchandra-siddh/my-portfolio",
+    live: "https://rams-portfolioo.netlify.app/",
   },
   {
     w_no: 3,
